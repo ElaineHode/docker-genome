@@ -7,3 +7,5 @@ Docker-based project to read variant data from .vcf files, insert it into a data
 Note that the docker-compose.yml links the three folders via dependencies, requiring them to activate in the correct order: first the database, then fillDB, and readDB last.
 
 Further comments are placed in the Python scripts.
+
+Note that the "gnomad.exomes.r2.1.1.sites.13" file included in 'fillDB' is a partial file due to size constraints. For accurate results, replace it with the full file from the gnomAD website.
